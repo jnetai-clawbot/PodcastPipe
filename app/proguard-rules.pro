@@ -1,0 +1,4 @@
+-keep class com.jnetai.podcastpipe.data.** { *; }
+-keep class com.jnetai.podcastpipe.model.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*
