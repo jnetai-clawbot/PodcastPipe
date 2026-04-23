@@ -9,7 +9,7 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.jnetai.podcastpipe.PodcastPipe
 import com.jnetai.podcastpipe.R
-import com.jnetai.podcastpipe.binding.ActivityMainBinding
+import com.jnetai.podcastpipe.databinding.ActivityMainBinding
 import com.jnetai.podcastpipe.model.Episode
 import kotlinx.coroutines.launch
 

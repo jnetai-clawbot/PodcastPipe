@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import com.jnetai.podcastpipe.PodcastPipe
-import com.jnetai.podcastpipe.binding.ActivityDetailBinding
+import com.jnetai.podcastpipe.databinding.ActivityDetailBinding
 import com.jnetai.podcastpipe.model.Episode
 import kotlinx.coroutines.launch
 

@@ -4,7 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.jnetai.podcastpipe.BuildConfig
-import com.jnetai.podcastpipe.binding.ActivityAboutBinding
+import com.jnetai.podcastpipe.databinding.ActivityAboutBinding
 import org.json.JSONObject
 import java.net.URL
 

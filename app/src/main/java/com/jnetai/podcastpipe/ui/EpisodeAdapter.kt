@@ -3,7 +3,7 @@ package com.jnetai.podcastpipe.ui
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.jnetai.podcastpipe.binding.ItemMainBinding
+import com.jnetai.podcastpipe.databinding.ItemMainBinding
 import com.jnetai.podcastpipe.model.Episode
 
 class EpisodeAdapter(private val onClick: (Episode) -> Unit) : RecyclerView.Adapter<EpisodeAdapter.VH>() {
@@ -13,8 +13,8 @@ class EpisodeAdapter(private val onClick: (Episode) -> Unit) : RecyclerView.Adap
     override fun getItemCount() = items.size
     override fun onBindViewHolder(h: VH, pos: Int) {
         val item = items[pos]
-        h.binding.titleText.text = item.title
-        h.binding.subtitleText.text = item.status + " · " + (item.guestName.ifEmpty { "No guest" })
-        h.binding.root.setOnClickListener { onClick(item) }
+        h.databinding.titleText.text = item.title
+        h.databinding.subtitleText.text = item.status + " · " + (item.guestName.ifEmpty { "No guest" })
+        h.databinding.root.setOnClickListener { onClick(item) }
     }
 }
